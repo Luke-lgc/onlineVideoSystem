@@ -13,6 +13,7 @@
 
     <dependencies>
         <dependency>
+<!--            将服务注册到注册中心  1、增加eureka-client依赖，2、增加配置，指向注册中心地址（application.properties）3、启动类里增加@EnableEurekaClient注解-->
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
